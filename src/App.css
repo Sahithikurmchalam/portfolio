@@ -1,0 +1,32 @@
+*{
+  cursor: none;
+  margin: 0;
+}
+.app-main{
+  
+}
+.cursor{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: transform .3s ease;
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 1000;
+  background: #fff;
+  mix-blend-mode: difference;
+}
+
+.grow, .grow-big{
+  transform: scale(2);
+  background: #fff;
+  mix-blend-mode: difference;
+  border: none;
+}
+.grow-big{
+  transform: scale(5);
+}

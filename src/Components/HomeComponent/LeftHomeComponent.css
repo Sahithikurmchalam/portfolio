@@ -1,0 +1,29 @@
+.left-main{
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    text-align: start;
+    justify-content: center;
+}
+
+.heading h1{
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom,#000,#555050);
+    -webkit-background-clip: text;
+    color: transparent;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    line-height: 5.9rem;
+}
+
+.char {
+    color: #525050;
+    transform: translateY(115px);
+    transition: transform .5s;
+    display: inline-block;
+}
+
+.char:hover{
+    transform: translate(0, -5px);
+}
